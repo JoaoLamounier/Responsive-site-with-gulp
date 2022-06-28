@@ -1,0 +1,33 @@
+body {
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+}
+
+
+
+img{
+    display: block;
+}
+
+@media (max-width: 800px){
+    body{
+        justify-items: center;
+        flex: 0 0 25em;
+        display: inline-flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        width: -moz-available;          /* WebKit-based browsers will ignore this. */
+        width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+        width: fill-available;
+    }
+    body>div{
+        flex-grow: 1;
+    }
+}

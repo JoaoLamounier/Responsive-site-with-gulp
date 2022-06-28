@@ -1,0 +1,2 @@
+$(document).ready(function(){var e;window.matchMedia("(max-width: 800px)").matches?(e='<div class="heroTitle">LOREM IPSILUM</div><div class="heroText">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div><img src= "src/images/loremImage.png" class="heroImage">',$(".hero").append(e),$(".hero").removeClass("hero").addClass("heroMobile")):(e='<div class="heroTitle">LOREM IPSILUM</div>',e+='<div class="heroText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</div>',$(".hero").append(e))});
+//# sourceMappingURL=scripts.js.map
